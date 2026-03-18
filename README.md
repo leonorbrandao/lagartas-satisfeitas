@@ -28,24 +28,15 @@ Goal: model and solve a caterpillar-grid control problem with apples and obstacl
   - `src/caterpillar_csp_solver.py` (specific CSP solution)
   - `tests/test_lagartas_satisfeitas.py` (unit tests)
 
-## Quick Start
+## Use
 
-1. Create and activate a virtual environment:
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\activate
-pip install --upgrade pip
-pip install pytest
-```
-
-2. Run tests:
+1. Run tests:
 
 ```powershell
 pytest -q
 ```
 
-3. Example usage in Python console:
+2. Example usage in Python console:
 
 ```python
 from src.lagarta import MundoLagarta
